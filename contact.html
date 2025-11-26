@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaptopStore - Liên Hệ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><i class="fas fa-laptop-code"></i> LaptopStore</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="products.html">Sản Phẩm</a></li>
+                <li><a href="info.html">Thông Tin</a></li>
+                <li><a href="contact.html" class="active">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 2rem;">Liên Hệ Với Chúng Tôi</h1>
+
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Họ và Tên</label>
+                    <input type="text" id="name" name="name" required placeholder="Nhập họ tên của bạn">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Nhập địa chỉ email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Số Điện Thoại</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại">
+                </div>
+                <div class="form-group">
+                    <label for="message">Nội Dung</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Bạn cần hỗ trợ gì?"></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Gửi Tin Nhắn</button>
+            </form>
+        </div>
+
+        <div style="margin-top: 4rem; text-align: center;">
+            <h2 style="margin-bottom: 1rem;">Thông Tin Liên Lạc</h2>
+            <p><i class="fas fa-map-marker-alt" style="color: var(--primary-color);"></i> 123 Đường Công Nghệ, Quận 1,
+                TP.HCM</p>
+            <p style="margin: 0.5rem 0;"><i class="fas fa-phone" style="color: var(--primary-color);"></i> 1900 1234</p>
+            <p><i class="fas fa-envelope" style="color: var(--primary-color);"></i> contact@laptopstore.com</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>LaptopStore</h3>
+                <p>Địa chỉ tin cậy cho mọi tín đồ công nghệ.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liên Kết</h3>
+                <ul>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="products.html">Sản Phẩm</a></li>
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Liên Hệ</h3>
+                <p>Email: contact@laptopstore.com</p>
+                <p>Hotline: 1900 1234</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 LaptopStore. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
